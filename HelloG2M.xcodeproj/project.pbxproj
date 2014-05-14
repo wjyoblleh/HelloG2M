@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		242348491908BCBC00B90BD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 242348481908BCBC00B90BD7 /* Foundation.framework */; };
+		2423484B1908BCBC00B90BD7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2423484A1908BCBC00B90BD7 /* CoreGraphics.framework */; };
+		2423484D1908BCBC00B90BD7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2423484C1908BCBC00B90BD7 /* UIKit.framework */; };
+		242348531908BCBC00B90BD7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 242348511908BCBC00B90BD7 /* InfoPlist.strings */; };
+		242348551908BCBC00B90BD7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 242348541908BCBC00B90BD7 /* main.m */; };
+		242348591908BCBC00B90BD7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 242348581908BCBC00B90BD7 /* AppDelegate.m */; };
+		2423485B1908BCBC00B90BD7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2423485A1908BCBC00B90BD7 /* Images.xcassets */; };
+		242348621908BCBD00B90BD7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 242348611908BCBD00B90BD7 /* XCTest.framework */; };
+		242348631908BCBD00B90BD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 242348481908BCBC00B90BD7 /* Foundation.framework */; };
+		242348641908BCBD00B90BD7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2423484C1908BCBC00B90BD7 /* UIKit.framework */; };
+		2423486C1908BCBD00B90BD7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2423486A1908BCBD00B90BD7 /* InfoPlist.strings */; };
+		2423486E1908BCBD00B90BD7 /* HelloG2MTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2423486D1908BCBD00B90BD7 /* HelloG2MTests.m */; };
+		2423488E1908BD1100B90BD7 /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 242348791908BD1100B90BD7 /* ASIAuthenticationDialog.m */; };
+		2423488F1908BD1100B90BD7 /* ASIDataCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2423487C1908BD1100B90BD7 /* ASIDataCompressor.m */; };
+		242348901908BD1100B90BD7 /* ASIDataDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2423487E1908BD1100B90BD7 /* ASIDataDecompressor.m */; };
+		242348911908BD1100B90BD7 /* ASIDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 242348801908BD1100B90BD7 /* ASIDownloadCache.m */; };
+		242348921908BD1100B90BD7 /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 242348821908BD1100B90BD7 /* ASIFormDataRequest.m */; };
+		242348931908BD1100B90BD7 /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 242348841908BD1100B90BD7 /* ASIHTTPRequest.m */; };
+		242348941908BD1100B90BD7 /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 242348881908BD1100B90BD7 /* ASIInputStream.m */; };
+		242348951908BD1100B90BD7 /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 2423488A1908BD1100B90BD7 /* ASINetworkQueue.m */; };
+		242348961908BD1100B90BD7 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 2423488D1908BD1100B90BD7 /* Reachability.m */; };
+		242348981908C6BA00B90BD7 /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 242348971908C6BA00B90BD7 /* libz.1.2.5.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		242348651908BCBD00B90BD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2423483D1908BCBC00B90BD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 242348441908BCBC00B90BD7;
+			remoteInfo = HelloG2M;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		242348451908BCBC00B90BD7 /* HelloG2M.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloG2M.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		242348481908BCBC00B90BD7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2423484A1908BCBC00B90BD7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2423484C1908BCBC00B90BD7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		242348501908BCBC00B90BD7 /* HelloG2M-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloG2M-Info.plist"; sourceTree = "<group>"; };
+		242348521908BCBC00B90BD7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		242348541908BCBC00B90BD7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		242348561908BCBC00B90BD7 /* HelloG2M-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloG2M-Prefix.pch"; sourceTree = "<group>"; };
+		242348571908BCBC00B90BD7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		242348581908BCBC00B90BD7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2423485A1908BCBC00B90BD7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		242348601908BCBD00B90BD7 /* HelloG2MTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloG2MTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		242348611908BCBD00B90BD7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		242348691908BCBD00B90BD7 /* HelloG2MTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloG2MTests-Info.plist"; sourceTree = "<group>"; };
+		2423486B1908BCBD00B90BD7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2423486D1908BCBD00B90BD7 /* HelloG2MTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloG2MTests.m; sourceTree = "<group>"; };
+		242348781908BD1100B90BD7 /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIAuthenticationDialog.h; sourceTree = "<group>"; };
+		242348791908BD1100B90BD7 /* ASIAuthenticationDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIAuthenticationDialog.m; sourceTree = "<group>"; };
+		2423487A1908BD1100B90BD7 /* ASICacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASICacheDelegate.h; sourceTree = "<group>"; };
+		2423487B1908BD1100B90BD7 /* ASIDataCompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataCompressor.h; sourceTree = "<group>"; };
+		2423487C1908BD1100B90BD7 /* ASIDataCompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataCompressor.m; sourceTree = "<group>"; };
+		2423487D1908BD1100B90BD7 /* ASIDataDecompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataDecompressor.h; sourceTree = "<group>"; };
+		2423487E1908BD1100B90BD7 /* ASIDataDecompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataDecompressor.m; sourceTree = "<group>"; };
+		2423487F1908BD1100B90BD7 /* ASIDownloadCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDownloadCache.h; sourceTree = "<group>"; };
+		242348801908BD1100B90BD7 /* ASIDownloadCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDownloadCache.m; sourceTree = "<group>"; };
+		242348811908BD1100B90BD7 /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIFormDataRequest.h; sourceTree = "<group>"; };
+		242348821908BD1100B90BD7 /* ASIFormDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIFormDataRequest.m; sourceTree = "<group>"; };
+		242348831908BD1100B90BD7 /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequest.h; sourceTree = "<group>"; };
+		242348841908BD1100B90BD7 /* ASIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIHTTPRequest.m; sourceTree = "<group>"; };
+		242348851908BD1100B90BD7 /* ASIHTTPRequestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestConfig.h; sourceTree = "<group>"; };
+		242348861908BD1100B90BD7 /* ASIHTTPRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestDelegate.h; sourceTree = "<group>"; };
+		242348871908BD1100B90BD7 /* ASIInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIInputStream.h; sourceTree = "<group>"; };
+		242348881908BD1100B90BD7 /* ASIInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIInputStream.m; sourceTree = "<group>"; };
+		242348891908BD1100B90BD7 /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINetworkQueue.h; sourceTree = "<group>"; };
+		2423488A1908BD1100B90BD7 /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINetworkQueue.m; sourceTree = "<group>"; };
+		2423488B1908BD1100B90BD7 /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIProgressDelegate.h; sourceTree = "<group>"; };
+		2423488C1908BD1100B90BD7 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		2423488D1908BD1100B90BD7 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		242348971908C6BA00B90BD7 /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		242348421908BCBC00B90BD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				242348981908C6BA00B90BD7 /* libz.1.2.5.dylib in Frameworks */,
+				2423484B1908BCBC00B90BD7 /* CoreGraphics.framework in Frameworks */,
+				2423484D1908BCBC00B90BD7 /* UIKit.framework in Frameworks */,
+				242348491908BCBC00B90BD7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2423485D1908BCBD00B90BD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				242348621908BCBD00B90BD7 /* XCTest.framework in Frameworks */,
+				242348641908BCBD00B90BD7 /* UIKit.framework in Frameworks */,
+				242348631908BCBD00B90BD7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2423483C1908BCBC00B90BD7 = {
+			isa = PBXGroup;
+			children = (
+				2423484E1908BCBC00B90BD7 /* HelloG2M */,
+				242348671908BCBD00B90BD7 /* HelloG2MTests */,
+				242348471908BCBC00B90BD7 /* Frameworks */,
+				242348461908BCBC00B90BD7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		242348461908BCBC00B90BD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				242348451908BCBC00B90BD7 /* HelloG2M.app */,
+				242348601908BCBD00B90BD7 /* HelloG2MTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		242348471908BCBC00B90BD7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				242348971908C6BA00B90BD7 /* libz.1.2.5.dylib */,
+				242348481908BCBC00B90BD7 /* Foundation.framework */,
+				2423484A1908BCBC00B90BD7 /* CoreGraphics.framework */,
+				2423484C1908BCBC00B90BD7 /* UIKit.framework */,
+				242348611908BCBD00B90BD7 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2423484E1908BCBC00B90BD7 /* HelloG2M */ = {
+			isa = PBXGroup;
+			children = (
+				242348771908BCF700B90BD7 /* ASIHttpRequest */,
+				242348571908BCBC00B90BD7 /* AppDelegate.h */,
+				242348581908BCBC00B90BD7 /* AppDelegate.m */,
+				2423485A1908BCBC00B90BD7 /* Images.xcassets */,
+				2423484F1908BCBC00B90BD7 /* Supporting Files */,
+			);
+			path = HelloG2M;
+			sourceTree = "<group>";
+		};
+		2423484F1908BCBC00B90BD7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				242348501908BCBC00B90BD7 /* HelloG2M-Info.plist */,
+				242348511908BCBC00B90BD7 /* InfoPlist.strings */,
+				242348541908BCBC00B90BD7 /* main.m */,
+				242348561908BCBC00B90BD7 /* HelloG2M-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		242348671908BCBD00B90BD7 /* HelloG2MTests */ = {
+			isa = PBXGroup;
+			children = (
+				2423486D1908BCBD00B90BD7 /* HelloG2MTests.m */,
+				242348681908BCBD00B90BD7 /* Supporting Files */,
+			);
+			path = HelloG2MTests;
+			sourceTree = "<group>";
+		};
+		242348681908BCBD00B90BD7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				242348691908BCBD00B90BD7 /* HelloG2MTests-Info.plist */,
+				2423486A1908BCBD00B90BD7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		242348771908BCF700B90BD7 /* ASIHttpRequest */ = {
+			isa = PBXGroup;
+			children = (
+				242348781908BD1100B90BD7 /* ASIAuthenticationDialog.h */,
+				242348791908BD1100B90BD7 /* ASIAuthenticationDialog.m */,
+				2423487A1908BD1100B90BD7 /* ASICacheDelegate.h */,
+				2423487B1908BD1100B90BD7 /* ASIDataCompressor.h */,
+				2423487C1908BD1100B90BD7 /* ASIDataCompressor.m */,
+				2423487D1908BD1100B90BD7 /* ASIDataDecompressor.h */,
+				2423487E1908BD1100B90BD7 /* ASIDataDecompressor.m */,
+				2423487F1908BD1100B90BD7 /* ASIDownloadCache.h */,
+				242348801908BD1100B90BD7 /* ASIDownloadCache.m */,
+				242348811908BD1100B90BD7 /* ASIFormDataRequest.h */,
+				242348821908BD1100B90BD7 /* ASIFormDataRequest.m */,
+				242348831908BD1100B90BD7 /* ASIHTTPRequest.h */,
+				242348841908BD1100B90BD7 /* ASIHTTPRequest.m */,
+				242348851908BD1100B90BD7 /* ASIHTTPRequestConfig.h */,
+				242348861908BD1100B90BD7 /* ASIHTTPRequestDelegate.h */,
+				242348871908BD1100B90BD7 /* ASIInputStream.h */,
+				242348881908BD1100B90BD7 /* ASIInputStream.m */,
+				242348891908BD1100B90BD7 /* ASINetworkQueue.h */,
+				2423488A1908BD1100B90BD7 /* ASINetworkQueue.m */,
+				2423488B1908BD1100B90BD7 /* ASIProgressDelegate.h */,
+				2423488C1908BD1100B90BD7 /* Reachability.h */,
+				2423488D1908BD1100B90BD7 /* Reachability.m */,
+			);
+			name = ASIHttpRequest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		242348441908BCBC00B90BD7 /* HelloG2M */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 242348711908BCBD00B90BD7 /* Build configuration list for PBXNativeTarget "HelloG2M" */;
+			buildPhases = (
+				242348411908BCBC00B90BD7 /* Sources */,
+				242348421908BCBC00B90BD7 /* Frameworks */,
+				242348431908BCBC00B90BD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloG2M;
+			productName = HelloG2M;
+			productReference = 242348451908BCBC00B90BD7 /* HelloG2M.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2423485F1908BCBD00B90BD7 /* HelloG2MTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 242348741908BCBD00B90BD7 /* Build configuration list for PBXNativeTarget "HelloG2MTests" */;
+			buildPhases = (
+				2423485C1908BCBD00B90BD7 /* Sources */,
+				2423485D1908BCBD00B90BD7 /* Frameworks */,
+				2423485E1908BCBD00B90BD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				242348661908BCBD00B90BD7 /* PBXTargetDependency */,
+			);
+			name = HelloG2MTests;
+			productName = HelloG2MTests;
+			productReference = 242348601908BCBD00B90BD7 /* HelloG2MTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2423483D1908BCBC00B90BD7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = gaea;
+				TargetAttributes = {
+					2423485F1908BCBD00B90BD7 = {
+						TestTargetID = 242348441908BCBC00B90BD7;
+					};
+				};
+			};
+			buildConfigurationList = 242348401908BCBC00B90BD7 /* Build configuration list for PBXProject "HelloG2M" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2423483C1908BCBC00B90BD7;
+			productRefGroup = 242348461908BCBC00B90BD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				242348441908BCBC00B90BD7 /* HelloG2M */,
+				2423485F1908BCBD00B90BD7 /* HelloG2MTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		242348431908BCBC00B90BD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				242348531908BCBC00B90BD7 /* InfoPlist.strings in Resources */,
+				2423485B1908BCBC00B90BD7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2423485E1908BCBD00B90BD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2423486C1908BCBD00B90BD7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		242348411908BCBC00B90BD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				242348921908BD1100B90BD7 /* ASIFormDataRequest.m in Sources */,
+				242348931908BD1100B90BD7 /* ASIHTTPRequest.m in Sources */,
+				242348591908BCBC00B90BD7 /* AppDelegate.m in Sources */,
+				242348961908BD1100B90BD7 /* Reachability.m in Sources */,
+				2423488E1908BD1100B90BD7 /* ASIAuthenticationDialog.m in Sources */,
+				242348951908BD1100B90BD7 /* ASINetworkQueue.m in Sources */,
+				242348911908BD1100B90BD7 /* ASIDownloadCache.m in Sources */,
+				242348941908BD1100B90BD7 /* ASIInputStream.m in Sources */,
+				2423488F1908BD1100B90BD7 /* ASIDataCompressor.m in Sources */,
+				242348551908BCBC00B90BD7 /* main.m in Sources */,
+				242348901908BD1100B90BD7 /* ASIDataDecompressor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2423485C1908BCBD00B90BD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2423486E1908BCBD00B90BD7 /* HelloG2MTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		242348661908BCBD00B90BD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 242348441908BCBC00B90BD7 /* HelloG2M */;
+			targetProxy = 242348651908BCBD00B90BD7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		242348511908BCBC00B90BD7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				242348521908BCBC00B90BD7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2423486A1908BCBD00B90BD7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2423486B1908BCBD00B90BD7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2423486F1908BCBD00B90BD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		242348701908BCBD00B90BD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		242348721908BCBD00B90BD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloG2M/HelloG2M-Prefix.pch";
+				INFOPLIST_FILE = "HelloG2M/HelloG2M-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		242348731908BCBD00B90BD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloG2M/HelloG2M-Prefix.pch";
+				INFOPLIST_FILE = "HelloG2M/HelloG2M-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		242348751908BCBD00B90BD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HelloG2M.app/HelloG2M";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloG2M/HelloG2M-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HelloG2MTests/HelloG2MTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		242348761908BCBD00B90BD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HelloG2M.app/HelloG2M";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloG2M/HelloG2M-Prefix.pch";
+				INFOPLIST_FILE = "HelloG2MTests/HelloG2MTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		242348401908BCBC00B90BD7 /* Build configuration list for PBXProject "HelloG2M" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2423486F1908BCBD00B90BD7 /* Debug */,
+				242348701908BCBD00B90BD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		242348711908BCBD00B90BD7 /* Build configuration list for PBXNativeTarget "HelloG2M" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				242348721908BCBD00B90BD7 /* Debug */,
+				242348731908BCBD00B90BD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		242348741908BCBD00B90BD7 /* Build configuration list for PBXNativeTarget "HelloG2MTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				242348751908BCBD00B90BD7 /* Debug */,
+				242348761908BCBD00B90BD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2423483D1908BCBC00B90BD7 /* Project object */;
+}
